@@ -1,40 +1,88 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Website, html, Zakir981" />
+  <meta name="description" content="Это мой первый сайт на CSS 3" />
+  <title>Ilya Zakirov</title>
+  <link rel="stylesheet" href="connect.css">
 </head>
-<body text="#CCFFFF" bgcolor="#FFFFCC" background="bg2.png">
-  <div align="center">
-    <h1>
-      <font color="FF9999">Hello, space!</font>
-    </h1>
+<body>
+  <div class="container">
+    <div class="disp">
+      <img src="https://sun9-11.userapi.com/impg/6SnV_EtoOP8DA5pZFWwyj86gThf1rv_ojxyi2A/NE-vo1_5Ogo.jpg?size=1080x1049&quality=96&sign=acd1a7bd580955e23421390e1ebe0400&type=album" alt="My face" class="photo">      
+
+      <div class="info text">
+        <h2>Илья Закиров</h2>  
+        <p><em>Я <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B8%D1%82%D1%83%D1%80%D0%B8%D0%B5%D0%BD%D1%82" class="links" target="_blank"><strong>абитуриент</strong></a>, живущий в Сибири</p>
+        <p>Люблю бить ,баклуши, валять дурака и плевать в потолок</em></p>
+      
+          <p class="media"><strong>Список социальных сетей</strong>:</p>
+          <a href="https://t.me/Liderjop" target="_blank" class="links">Telegram</a>
+          |
+          <a href="https://vk.com/pidrila981" target="_blank" class="links">Вконтакте</a>
+          |
+          <a href="https://www.youtube.com/channel/UCPi9IW4JumqAWVY-espkm_g" target="_blank" class="links">Youtube</a>
+      </div>
+    </div>
+        <div class="card hobbies">
+          <h3>Мои хобби:</h3>
+          <ul type="circle" class="list">
+            <li>Дразнить прохожих</li>
+            <li>Не слушаться родителей</li>
+            <li>Убивать молодых тараканов</li>
+          </ul>
+        </div>
+
+        <div class="card jobs">
+          <h3>Опыт работы:</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Годы</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Автомойка на Магистральной</td>
+                <td>Car Washer</td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td>Грузовая компания</td>
+                <td>Loader</td>
+                <td>2020-2021</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+    <form class="sending">
+      <h3 class="h4">Связаться со мной:</h3>
+      <div class="sent pair">
+        <label for="name">Ваше имя:</label>
+        <br />
+        <input class="input name" type="text" id="name" placeholder="Введите имя">
+      </div>
+
+      <div class="sent pair">
+        <label for="email">Ваша почта:</label>
+        <br />
+        <input class="input email" type="email" id="email" placeholder="Введите email">
+      </div>
+
+      <div class="sent">
+        <label for="sms">Ваш месседж for me:</label>
+        <br />
+        <textarea class="input textarea" id="sms" rows="7" placeholder="Введите сообщение..."></textarea>
+      </div>
+      <button class="btn">SEND SMS</button>
+    </form>
   </div>
-  <img src="face.jpg" alt="My face" align="left" height="300" width="300" hspace="20" border="3">
-  <font face="Verdana" size="+1">
-    <p align="justify">Значит, ты сейчас на страничке будущего <i>разработчика</i>... знаешь чего? Правильно! <b>Сайтов</b>, екарный бабай! <u>Web Designer</u>, you know? Звучит, к сожалению, клешировано, но я сделаю такой прорыв, что ошалеют даже <s>папуасы</s> в Гвинее. Меня еще все тут вспомнят. Сегодня <b><u><i>07.07.2022</i></u></b>. Я спустя 3 дня изучения html разбирательств с git-ом и vs-кодом (ААААА) создаю своё портфолио. Бомбучес!</p>
-    <br>
-    Немного цитат великих людей:
-    <pre><font color="000000" size="+2"><i>
-   По хитину себя бей
-   Что вырвешься из сетей
-   Но ты всего лишь муравей
-   Всего лишь муравей
-   Маленький, глупый 
-    </i></font>
-    </pre>
-  </font>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-<div align="center"><h3><font color="CCFFFF"><b>Ищущий всегда <i>найдет</i>
-<br>
-Дорога <i>возникает</i> под ногами идущего
-</b></font></h3></div>
 </body>
 </html>

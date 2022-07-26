@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
+  color:#0f141e;
+  max-width: 800px  ;
+  margin: auto;
+  padding: 20px;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.text p {
+  color: #424655;
+}
+
+.disp {
+  display: flex;
+}
+
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hobbies {
+  background-color: rgba(254, 255, 215, 0.719);
+}
+
+.hobbies h3 {
+  padding-bottom: 10px;
+}
+
+.jobs {
+  background-color: rgb(220, 255, 215);
+}
+
+.jobs h3 {
+  padding-bottom: 10px;
+}
+
+.photo {
+  margin-bottom: 10px;
+  border-radius: 28px;
+  box-shadow: -7px -7px 14px rgba(0, 0, 0, 0.25);
+  width: 250px;
+}
+
+.media {
+  margin-bottom: 7px;
+  margin-top: 15px;
+}
+
+.links {
+  /* background-color: aqua; */
+  color: #424655;
+  text-decoration: none;
+  padding-top: 10px;
+  font-size: 0.87em;
+}
+
+.links:hover {
+  color: lightcoral;
+  font-size: 1.01em;
+  transition: all .2s;
+  /* text-decoration: underline; */
+}
+
+.links:active {
+  color: rgb(201, 48, 48);
+}
+
+.btn {
+  font-family: 'Roboto';
+  padding: 13px;
+  font-size: 20px;
+  background-color: #0f141e;
+  border: 4px solid #ddd;
+  font-weight: 500;
+  margin-top: 10px;
+  border-radius: 13px;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+  box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: block;
+  margin-left: 68%;
+}
+
+.btn:hover {
+  color: lightcoral;
+  font-size: 1.2em;
+  transition: all .2s;
+  opacity: 0.9;
+}
+
+.h4:hover {
+  color: lightcoral;
+}
+
+.in1, .in2, .in3 {
+  padding-bottom: 5px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: unset;
+}
+
+.list li {
+  margin-bottom: 3px;
+  margin-left: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.table td, th {
+  text-align: center;
+  /* border: 3px solid darkgoldenrod; */
+  padding: 10px;
+  border: 3px solid rgba(195, 245, 188, 0.685);
+  border-radius: 6px;
+}
+
+/* .table td:hover {
+  background-color: rgb(166 218 153);
+} */
+
+.table tr:nth-child(even) {
+  background-color: rgba(195, 245, 188, 0.685);
+}
+
+.table tr:nth-child(odd) {
+  background-color: rgba(195, 245, 188, 0.685);
+}
+
+.sending h3 {
+  text-align: center;
+}
+
+.sending {
+  background-color: rgba(231, 225, 225, 0.425);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.pair {
+  display: inline-block;
+  width: 49%;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 30px ;
+  /* text-align: center; */
+}
+
+.sent {
+  color: rgb(131, 131, 131);
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 15px;
+  border-bottom: 2px solid rgba(88, 85, 85, 0.301);
+  outline: 0;
+  font-family: inherit;
+}
+
+.name, .email {
+  padding: 13px 0 13px;
+}
+
+.textarea {
+  padding-top: 13px;
+}
+
+@media (max-width: 600px) {
+
+  .disp {
+    display: block;
+    text-align: center;
+  }
+
+  .photo {
+    display: block;
+    margin: auto;
+  }
+
+  .table {
+    width: auto;
+  }
+
+  .text h2 {
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 460px) {
+  .table {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 454px) {
+  .pair {
+    width: 100%;
+  }
+}
